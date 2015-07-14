@@ -54,4 +54,5 @@ RestauranteRailsApp::Application.routes.draw do
   #     resources :products
   #   end
   match 'ola' => 'ola_mundo#index', via: 'get'
+  resources :restaurantes
 end
